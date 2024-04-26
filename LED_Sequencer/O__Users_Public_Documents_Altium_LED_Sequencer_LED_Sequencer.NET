@@ -1,0 +1,85 @@
+PARTS LIST
+
+ERJ-8ENF1001V     RESC3216X70X50LL05T201
+3386P-1-104LF     FP-3386P-MFG    2
+C2012X5R1E105K125AAFP-C2012-125-0_2-IPC_A3
+ERJ-8ENF1001V     RESC3216X70X50LL05T204
+HLMP-1719         FP-HLMP-1719-MFGD1
+HLMP-1719         FP-HLMP-1719-MFGD2
+HLMP-1719         FP-HLMP-1719-MFGD3
+HLMP-1719         FP-HLMP-1719-MFGD4
+HLMP-1719         FP-HLMP-1719-MFGD5
+HLMP-1719         FP-HLMP-1719-MFGD6
+HLMP-1719         FP-HLMP-1719-MFGD7
+HLMP-1719         FP-HLMP-1719-MFGD8
+HLMP-1719         FP-HLMP-1719-MFGD9
+HLMP-1719         FP-HLMP-1719-MFGD10
+M20-9990245       FP-M20-9990245-MFGJ1
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R1
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R2
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R3
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R4
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R5
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R6
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R7
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R8
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R9
+ERJ-8ENF1001V     RESC3216X70X50LL05T20R10
+CD4017BM          D0016A_N        U1
+NE555DR           FP-D0008A-IPC_A U2
+EOS
+NET LIST
+
+NODENAME VCC              $
+    1          1  J1         1  U1        16  U2         4  U2         8
+NODENAME NetU1-14         $
+    U1        14  U2         3
+NODENAME NetR10-1         $
+    R10        1  U1        11
+NODENAME NetR9-1          $
+    R9         1  U1         9
+NODENAME NetR8-1          $
+    R8         1  U1         6
+NODENAME NetR7-1          $
+    R7         1  U1         5
+NODENAME NetR6-1          $
+    R6         1  U1         1
+NODENAME NetR5-1          $
+    R5         1  U1        10
+NODENAME NetR4-1          $
+    R4         1  U1         7
+NODENAME NetR3-1          $
+    R3         1  U1         4
+NODENAME NetR2-1          $
+    R2         1  U1         2
+NODENAME NetR1-1          $
+    R1         1  U1         3
+NODENAME NetD10-2         $
+    D10        2  R10        2
+NODENAME NetD9-2          $
+    D9         2  R9         2
+NODENAME NetD8-2          $
+    D8         2  R8         2
+NODENAME NetD7-2          $
+    D7         2  R7         2
+NODENAME NetD6-2          $
+    D6         2  R6         2
+NODENAME NetD5-2          $
+    D5         2  R5         2
+NODENAME NetD4-2          $
+    D4         2  R4         2
+NODENAME NetD3-2          $
+    D3         2  R3         2
+NODENAME NetD2-2          $
+    D2         2  R2         2
+NODENAME NetD1-2          $
+    D1         2  R1         2
+NODENAME Net2-2           $
+    2          2  2          3  4          2
+NODENAME Net2-1           $
+    2          1  3          1  U2         2  U2         6
+NODENAME Net1-2           $
+    1          2  4          1  U2         7
+NODENAME GND              $
+    3          2  D1         1  D2         1  D3         1  D4         1  D5         1  D6         1  D7         1  D8         1  D9         1  D10        1  J1         2  U1         8  U1        13  U1        15  U2         1
+EOS
